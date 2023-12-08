@@ -50,21 +50,20 @@ export default function Home() {
       {/* top */}
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto'>
         <h1 className='text-slate-700 font-bold text-3xl lg:text-6xl'>
-          Find your next <span className='text-slate-500'>perfect</span>
+        You Wish to have your <span className='text-puprle-200'>Sanctuary Place?</span>
           <br />
-          place with ease
+          Here is Everything you need
         </h1>
         <div className='text-gray-400 text-xs sm:text-sm'>
-          Sahand Estate is the best place to find your next perfect place to
-          live.
+        Sanctuary Apartment will introduct you about high quality house you want to get
           <br />
-          We have a wide range of properties for you to choose from.
+          We have a suitable for you to choose from.
         </div>
         <Link
           to={'/search'}
           className='text-xs sm:text-sm text-blue-800 font-bold hover:underline'
         >
-          Let's get started...
+          Shall we start?
         </Link>
       </div>
 
