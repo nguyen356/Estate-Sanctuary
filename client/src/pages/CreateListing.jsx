@@ -26,6 +26,7 @@ export default function CreateListing() {
     offer: false,
     parking: false,
     furnished: false,
+    userPhone: 123456789,
   });
   const [imageUploadError, setImageUploadError] = useState(false);
   const [uploading, setUploading] = useState(false);
@@ -179,6 +180,15 @@ export default function CreateListing() {
             required
             onChange={handleChange}
             value={formData.description}
+          />
+          <input
+            type='number'
+            placeholder='Phone Number'
+            className='border p-3 rounded-lg'
+            id='userPhone'
+            required
+            onChange={handleChange}
+            value={formData.userPhone}
           />
           <input
             type='text'
